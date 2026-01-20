@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#061c2c;
+    color:#fff;
+}
+
+/* NAVBAR */
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 10%;
+    position:fixed;
+    width:100%;
+    background:#041827;
+}
+
+header .logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav a{
+    color:#fff;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#00f7ff;
+}
+
+/* HOME */
+.home{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:120px 10%;
+}
+
+.home-img img{
+    width:280px;
+    border-radius:50%;
+    box-shadow:0 0 25px #00f7ff;
+}
+
+.home-text span{
+    color:#00f7ff;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 25px;
+    background:#00f7ff;
+    color:#000;
+    border-radius:30px;
+    text-decoration:none;
+}
+
+/* SECTION TITLES */
+.title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:40px;
+}
+
+.title span{
+    color:#00f7ff;
+}
+
+/* ABOUT */
+.about{
+    padding:80px 15%;
+    text-align:center;
+}
+
+/* SERVICES */
+.services{
+    padding:80px 10%;
+}
+
+.service-box{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:#05263b;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px #00f7ff;
+    text-align:center;
+}
+
+.card button{
+    margin-top:15px;
+    padding:8px 20px;
+    border:none;
+    border-radius:20px;
+    background:#00f7ff;
+}
+
+/* SKILLS */
+.skills{
+    padding:80px 15%;
+}
+
+.skill{
+    margin-bottom:20px;
+}
+
+.bar{
+    width:100%;
+    height:10px;
+    background:#222;
+    border-radius:5px;
+}
+
+.bar span{
+    height:10px;
+    display:block;
+    background:#00f7ff;
+    border-radius:5px;
+}
+
+/* CONTACT */
+.contact{
+    padding:80px 15%;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+form input, textarea{
+    margin-bottom:15px;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+}
+
+form button{
+    padding:10px;
+    border:none;
+    background:#00f7ff;
+    border-radius:20px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#041827;
+}
